@@ -15,9 +15,18 @@ namespace KV
 {
     public class KV : Microsoft.Xna.Framework.Game
     {
+        //Fields
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        private Explorer explorer;
 
+        //Properties
+        public SpriteBatch SpriteBatch
+        {
+            get { return this.spriteBatch; }
+        }
+
+        //Constructor
         public KV()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -36,6 +45,7 @@ namespace KV
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            this.explorer = new Explorer(this, new Vector2(100f, 300f));
 
         }
 
@@ -49,6 +59,8 @@ namespace KV
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
+            this.explorer.Update(gameTime);
+
 
             base.Update(gameTime);
         }
@@ -56,6 +68,9 @@ namespace KV
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(new Color(6,6,6));
+            spriteBatch.Begin();
+            explorer.Draw(gameTime);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
