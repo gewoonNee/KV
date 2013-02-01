@@ -1,0 +1,6 @@
+*.swp
+*.suo
+**/bin/
+**/obj/
+*.cachefile
+*.debug.cachefile
