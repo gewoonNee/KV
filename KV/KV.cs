@@ -38,6 +38,7 @@ namespace KV
             IsMouseVisible = true;
             this.graphics.PreferredBackBufferWidth = 540;
             this.graphics.PreferredBackBufferHeight = 480;
+            //this.graphics.IsFullScreen = true;
             this.graphics.ApplyChanges();
             base.Initialize();
         }
@@ -56,8 +57,10 @@ namespace KV
 
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Delete))
                 this.Exit();
+
+            Input.Update();
 
             this.explorer.Update(gameTime);
 

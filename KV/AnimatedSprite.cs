@@ -20,6 +20,7 @@ namespace KV
         private int[] xValue = { 0, 18, 36, 54, 72, 90, 108, 126 };
         protected int i;
         private float timer = 0;
+        protected SpriteEffects effect;
 
         //Constructor
         public AnimatedSprite(Explorer explorer)

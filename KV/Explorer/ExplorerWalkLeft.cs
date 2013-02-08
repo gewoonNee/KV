@@ -13,7 +13,7 @@ using Microsoft.Xna.Framework.Storage;
 
 namespace KV
 {
-    public class ExplorerWalkRight : AnimatedSprite
+    public class ExplorerWalkLeft : AnimatedSprite
     {
         //Fields
         private Explorer explorer;
@@ -22,15 +22,27 @@ namespace KV
 
 
         //Constructor
-        public ExplorerWalkRight(Explorer explorer) : base(explorer)
+        public ExplorerWalkLeft(Explorer explorer)
+            : base(explorer)
         {
             this.explorer = explorer;
+            this.effect = SpriteEffects.FlipHorizontally;
         }
 
         //Update
         public override void Update(GameTime gameTime)
         {
-            this.explorer.Position += new Vector2(this.explorer.Speed, 0f);
+            this.explorer.Position -= new Vector2(this.explorer.Speed, 0f);
+            if (Input.DetectKeyUp(Keys.Left))
+            {
+                this.explorer.State = this.explorer.IdleLeft;
+            }
+
+            if (Input.DetectKeyDown(Keys.Space))
+            {
+                this.explorer.State = this.explorer.JumpLeft;
+                this.explorer.JumpLeft.Initialize();
+            }
 
             base.Update(gameTime);
         }

@@ -24,6 +24,17 @@ namespace KV
         private float speed = 3;
         private AnimatedSprite state;
 
+        private ExplorerWalkRight walkRight;
+        private ExplorerIdleRight idleRight;
+
+        private ExplorerWalkLeft walkLeft;
+        private ExplorerIdleLeft idleLeft;
+
+        private ExplorerJumpRight jumpRight;
+        private ExplorerJumpLeft jumpLeft;
+
+        private ExplorerJumpIdleRight jumpIdleRight;
+
         //Properties
         public Vector2 Position
         {
@@ -53,6 +64,48 @@ namespace KV
             get { return this.rectangle; }
         }
 
+        public AnimatedSprite State
+        {
+            set { this.state = value; }
+        }
+
+        public ExplorerWalkRight WalkRight
+        {
+            get { return this.walkRight; }
+            set { this.walkRight = value; }
+        }
+
+        public ExplorerIdleRight IdleRight
+        {
+            get { return this.idleRight; }
+        }
+
+        public ExplorerWalkLeft WalkLeft
+        {
+            get { return this.walkLeft; }
+            set { this.walkLeft = value; }
+        }
+
+        public ExplorerIdleLeft IdleLeft
+        {
+            get { return this.idleLeft; }
+        }
+
+        public ExplorerJumpRight JumpRight
+        {
+            get { return this.jumpRight; }
+        }
+
+        public ExplorerJumpLeft JumpLeft
+        {
+            get { return this.jumpLeft; }
+        }
+
+        public ExplorerJumpIdleRight JumpIdleRight
+        {
+            get { return this.jumpIdleRight; }
+        }
+
         //Constructor
         public Explorer(KV game, Vector2 position)
         {
@@ -61,7 +114,18 @@ namespace KV
             this.texture = game.Content.Load<Texture2D>(@"Explorer/explorer");
             this.rectangle = new Rectangle((int)this.position.X, (int)this.position.Y, this.texture.Width / 8, this.texture.Height);
 
-            this.state = new ExplorerWalkRight(this);
+            this.walkRight = new ExplorerWalkRight(this);
+            this.idleRight = new ExplorerIdleRight(this);
+
+            this.walkLeft = new ExplorerWalkLeft(this);
+            this.idleLeft = new ExplorerIdleLeft(this);
+
+            this.jumpRight = new ExplorerJumpRight(this, 70, 50);
+            this.jumpLeft = new ExplorerJumpLeft(this, 70, 50);
+
+            this.jumpIdleRight = new ExplorerJumpIdleRight(this, 70, 50);
+
+            this.state = new ExplorerIdleRight(this);
         }
 
         //Update
