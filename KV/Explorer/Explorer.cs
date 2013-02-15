@@ -34,6 +34,7 @@ namespace KV
         private ExplorerJumpLeft jumpLeft;
 
         private ExplorerJumpIdleRight jumpIdleRight;
+        private ExplorerJumpIdleLeft jumpIdleLeft;
 
         //Properties
         public Vector2 Position
@@ -106,6 +107,11 @@ namespace KV
             get { return this.jumpIdleRight; }
         }
 
+        public ExplorerJumpIdleLeft JumpIdleLeft
+        {
+            get { return this.jumpIdleLeft; }
+        }
+
         //Constructor
         public Explorer(KV game, Vector2 position)
         {
@@ -124,6 +130,7 @@ namespace KV
             this.jumpLeft = new ExplorerJumpLeft(this, 70, 50);
 
             this.jumpIdleRight = new ExplorerJumpIdleRight(this, 70, 50);
+            this.jumpIdleLeft = new ExplorerJumpIdleLeft(this, 70, 50);
 
             this.state = new ExplorerIdleRight(this);
         }

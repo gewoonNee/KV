@@ -35,6 +35,11 @@ namespace KV
             {
                 this.explorer.State = this.explorer.WalkRight;
             }
+            if (Input.DetectKeyDown(Keys.Space))
+            {
+                this.explorer.State = this.explorer.JumpIdleLeft;
+                this.explorer.JumpIdleLeft.Initialize();
+            }
             //base.Update(gameTime);
 
         }

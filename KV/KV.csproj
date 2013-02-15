@@ -85,7 +85,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnimatedSprite.cs" />
-    <Compile Include="ExplorerJumpIdle.cs" />
+    <Compile Include="Brick\Brick.cs" />
+    <Compile Include="Explorer\ExplorerJumpIdle.cs" />
+    <Compile Include="Explorer\ExplorerJumpIdleLeft.cs" />
     <Compile Include="Explorer\ExplorerJumpIdleRight.cs" />
     <Compile Include="Explorer\ExplorerJumpLeft.cs" />
     <Compile Include="Explorer\ExplorerJumpRight.cs" />
@@ -94,10 +96,15 @@
     <Compile Include="Explorer\Explorer.cs" />
     <Compile Include="Explorer\ExplorerIdleRight.cs" />
     <Compile Include="Explorer\ExplorerWalkRight.cs" />
+    <Compile Include="IBuildingBlock.cs" />
+    <Compile Include="Image.cs" />
     <Compile Include="Input\Input.cs" />
+    <Compile Include="Level\Level.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="KV.cs" />
+    <Compile Include="StairsRight.cs" />
+    <Compile Include="StepRight.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Explorer\explorer.png</Source>
+      <Name>Explorer\explorer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Explorer\explorer.xnb</Output>
+      <Time>2013-02-01T14:46:10.9469023+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Brick.png</Source>
+      <Name>Bricks\Brick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\Brick.xnb</Output>
+      <Time>2013-02-15T11:31:08.1308224+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Brick_transparant.png</Source>
+      <Name>Bricks\Brick_transparant</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\Brick_transparant.xnb</Output>
+      <Time>2013-02-15T11:31:08.1628242+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\EmptySpace.png</Source>
+      <Name>Bricks\EmptySpace</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\EmptySpace.xnb</Output>
+      <Time>2013-02-15T11:31:08.1868256+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\fundament.png</Source>
+      <Name>Bricks\fundament</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\fundament.xnb</Output>
+      <Time>2013-02-15T11:31:08.2498292+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\collision_text.png</Source>
+      <Name>Bricks\collision_text</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\collision_text.xnb</Output>
+      <Time>2013-02-15T13:10:06.0603934+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\stairs_left.png</Source>
+      <Name>Bricks\stairs_left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\stairs_left.xnb</Output>
+      <Time>2013-02-15T13:10:06.262405+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\stairs_top_left.png</Source>
+      <Name>Bricks\stairs_top_left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\stairs_top_left.xnb</Output>
+      <Time>2013-02-15T13:10:06.2844062+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\trapLeft01.png</Source>
+      <Name>Bricks\trapLeft01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\trapLeft01.xnb</Output>
+      <Time>2013-02-15T13:10:06.3034073+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\trapLeft02.png</Source>
+      <Name>Bricks\trapLeft02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\trapLeft02.xnb</Output>
+      <Time>2013-02-15T13:10:06.3224084+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\trapRight01.png</Source>
+      <Name>Bricks\trapRight01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\trapRight01.xnb</Output>
+      <Time>2013-02-15T13:10:06.3404094+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\trapRight02.png</Source>
+      <Name>Bricks\trapRight02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\trapRight02.xnb</Output>
+      <Time>2013-02-15T13:10:06.3564104+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\trapTopLeft01.png</Source>
+      <Name>Bricks\trapTopLeft01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\trapTopLeft01.xnb</Output>
+      <Time>2013-02-15T13:10:06.3764115+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\trapTopLeft02.png</Source>
+      <Name>Bricks\trapTopLeft02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\trapTopLeft02.xnb</Output>
+      <Time>2013-02-15T13:10:06.3954126+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\trapTopRight01.png</Source>
+      <Name>Bricks\trapTopRight01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\trapTopRight01.xnb</Output>
+      <Time>2013-02-15T13:10:06.4134136+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\trapTopRight02.png</Source>
+      <Name>Bricks\trapTopRight02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\Bricks\trapTopRight02.xnb</Output>
+      <Time>2013-02-15T13:10:06.4294145+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\Content\</RootDirectory>
+      <LoggerRootDirectory>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Mijn documenten\Visual Studio 2008\Projects\KV\KV\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T00:16:14+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T00:16:06+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T00:16:16+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T00:16:26+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T00:16:12+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T00:16:06+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-09-05T09:14:34.525645+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

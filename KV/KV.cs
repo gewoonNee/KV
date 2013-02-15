@@ -18,7 +18,7 @@ namespace KV
         //Fields
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        private Explorer explorer;
+        private Level level;
 
         //Properties
         public SpriteBatch SpriteBatch
@@ -36,7 +36,7 @@ namespace KV
         protected override void Initialize()
         {
             IsMouseVisible = true;
-            this.graphics.PreferredBackBufferWidth = 540;
+            this.graphics.PreferredBackBufferWidth = 544;
             this.graphics.PreferredBackBufferHeight = 480;
             //this.graphics.IsFullScreen = true;
             this.graphics.ApplyChanges();
@@ -46,8 +46,7 @@ namespace KV
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            this.explorer = new Explorer(this, new Vector2(100f, 300f));
-
+            this.level = new Level(this, 100);
         }
 
         protected override void UnloadContent()
@@ -62,8 +61,7 @@ namespace KV
 
             Input.Update();
 
-            this.explorer.Update(gameTime);
-
+            level.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -72,7 +70,7 @@ namespace KV
         {
             GraphicsDevice.Clear(new Color(6,6,6));
             spriteBatch.Begin();
-            explorer.Draw(gameTime);
+            level.Draw(gameTime);
             spriteBatch.End();
 
             base.Draw(gameTime);
